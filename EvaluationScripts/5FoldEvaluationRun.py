@@ -108,7 +108,7 @@ config.withreviewsandclusters = 0 #with 1 it considers clustering on embeddings 
 #concatenating
 
 # run on mindreader
-#concatreviewembeddings.run()
+#concatreviewembeddings.run_on_mindreader()
 
 #run on amazon or yelp
 concatreviewembeddings.run_on_amazon()
@@ -130,7 +130,7 @@ config.withreviewsandclusters = 0 #with 1 it considers clustering on embeddings 
 
 #concatenation
 # run on mindreader
-#concatreviewembeddings.run()
+#concatreviewembeddings.run_on_mindreader()
 
 #run on amazon and yelp
 concatreviewembeddings.run_on_amazon()
