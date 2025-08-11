@@ -20,3 +20,5 @@ There are various config options which we suggest you review before starting.
 
 There are also some assumptions on review embeddings. We have produced review embeddings per each sinlge review. Then we used util to aggregate it for users and items with userid/itemid as a first column for amazon and yelp.
 The review embeddings for mindreader was created also per each review in the movie reviews but it required remapping to mindreader dataset urls, and only aggregate afterwards to remap to userids and itemids. That is why the aggregation is done in runtime of evaluation.
+
+Before we run the recommendation prediction, we preselect from predictions only items and users from ground truth. There is a part which only related to mindreader and SpectralMix, since there we have also negative and neutral ratings. The utility for doing so is split_and_filter.
