@@ -12,9 +12,9 @@ import config
 import concatreviewembeddings
 import ClusteringEmbeddingsUsers
 import ClusteringEmbeddingsUsersItems
-import SpectralMixRecommendationPrediction
-import SpectralMixRecommendationEuclidean
-import SpectralMixRecommendationEvaluation
+import RecommendationPrediction
+import RecommendationEuclidean
+import RecommendationEvaluation
 import datetime as dt
 
 
@@ -43,8 +43,8 @@ config.withreviewsandclusters = 0 #with 1 it considers clustering on embeddings 
 
 
 #prediction
-SpectralMixRecommendationPrediction.run()
-SpectralMixRecommendationEuclidean.run()
+RecommendationPrediction.run()
+RecommendationEuclidean.run()
 
 
 
@@ -76,8 +76,8 @@ config.withclustersandreviews = 0 #with 1 it considers reviews concatenated to t
 config.withreviewsandclusters = 0 #with 1 it considers clustering on embeddings concatenated with reviews, with 0 not.
 
 #runnig prediction after for clusters
-SpectralMixRecommendationPrediction.run()
-SpectralMixRecommendationEuclidean.run()
+RecommendationPrediction.run()
+RecommendationEuclidean.run()
 
 
 
@@ -90,8 +90,8 @@ config.withclustersandreviews = 0 #with 1 it considers reviews concatenated to t
 config.withreviewsandclusters = 0 #with 1 it considers clustering on embeddings concatenated with reviews, with 0 not.
 
 #runnig prediction after
-SpectralMixRecommendationPrediction.run()
-SpectralMixRecommendationEuclidean.run()
+RecommendationPrediction.run()
+RecommendationEuclidean.run()
 
 
 
@@ -114,8 +114,8 @@ config.withreviewsandclusters = 0 #with 1 it considers clustering on embeddings 
 concatreviewembeddings.run_on_amazon()
 
 #prediction
-SpectralMixRecommendationPrediction.run()
-SpectralMixRecommendationEuclidean.run()
+RecommendationPrediction.run()
+RecommendationEuclidean.run()
 
 #concatenating reviews and clusterings over users and items and prediction after
 # 4/ clust(i.e.) + rev
@@ -136,8 +136,8 @@ config.withreviewsandclusters = 0 #with 1 it considers clustering on embeddings 
 concatreviewembeddings.run_on_amazon()
 
 #prediction
-SpectralMixRecommendationPrediction.run()
-SpectralMixRecommendationEuclidean.run()
+RecommendationPrediction.run()
+RecommendationEuclidean.run()
 
 
 
@@ -158,8 +158,8 @@ config.withreviewsandclusters = 1 #with 1 it considers clustering on embeddings 
 ClusteringEmbeddingsUsers.run()
 ClusteringEmbeddingsUsersItems.run()
 #runnig prediction after
-SpectralMixRecommendationPrediction.run()
-SpectralMixRecommendationEuclidean.run()
+RecommendationPrediction.run()
+RecommendationEuclidean.run()
 
 
 
@@ -171,7 +171,7 @@ config.withclustersandreviews = 1 #with 1 it considers reviews concatenated to t
 config.withreviewsandclusters = 1 #with 1 it considers clustering on embeddings concatenated with reviews, with 0 not.
 
 #running evaluation
-SpectralMixRecommendationEvaluation.run()
+RecommendationEvaluation.run()
 
 enddate = dt.datetime.now()
 print("Finished the whole evaluation for Spectral Mix: " + str(enddate))
