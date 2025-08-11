@@ -17,3 +17,6 @@ The script expects directories as specified in the config file. This can be chan
 There are utils for aggregating from evaluations of each method after single method evaluation is done and cvs file is saved.
 
 There are various config options which we suggest you review before starting.
+
+There are also some assumptions on review embeddings. We have produced review embeddings per each sinlge review. Then we used util to aggregate it for users and items with userid/itemid as a first column for amazon and yelp.
+The review embeddings for mindreader was created also per each review in the movie reviews but it required remapping to mindreader dataset urls, and only aggregate afterwards to remap to userids and itemids. That is why the aggregation is done in runtime of evaluation.
