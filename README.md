@@ -1,9 +1,9 @@
 # Recommendations With Clustering And Reviews
 This is the github repository for the paper:
 
-Peter Dolog, Sergio David Rico Torres, Yllka Velaj, Ylli Sadikaj, Andreas Stephan, Benjamin Roth, and Claudia
+_Peter Dolog, Sergio David Rico Torres, Yllka Velaj, Ylli Sadikaj, Andreas Stephan, Benjamin Roth, and Claudia
 Plant. 2025. The Impact of Graph Structure, Cluster Centroid and Text Review Embeddings on Recommendation
-Methods
+Methods._
 
 
 We have used python 3.8 and associated libraries.
