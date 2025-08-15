@@ -9,7 +9,7 @@ Methods._**
 We have used python 3.8 and associated libraries.
 
 The main evaluation script is in the EvaluationScripts directory. The name is 5ForldEvaluationRun.
-It is used with 5 folds for Mindreader, but only 1 fold for Amazon and Yelp datasets since there we follow the same procedure and the same splits as in the [KGCL paper from SIGIR22]{:target="_blank"}(https://arxiv.org/abs/2205.00976).
+It is used with 5 folds for Mindreader, but only 1 fold for Amazon and Yelp datasets since there we follow the same procedure and the same splits as in the [KGCL paper from SIGIR22](https://arxiv.org/abs/2205.00976).
 
 We learn embeddings with referenced methods and export them in the format with userid/itemid as a first column. This is expected as a format in our evaluation. 
 This can be changed, but then code needs to be adapted.
