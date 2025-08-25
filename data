@@ -1,9 +1,0 @@
-<script>start("/Users/sergiodavidricotorres/Documents/UNIVIE_RESEARCH/graph_learning/methods/data/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("amazon-book","amazon-book",1,224,"224 B",1755614346,"19/08/2025, 16:39:06");</script>
-<script>addRow("mindreader_fold_0","mindreader_fold_0",1,160,"160 B",1755620918,"19/08/2025, 18:28:38");</script>
-<script>addRow("mindreader_fold_1","mindreader_fold_1",1,160,"160 B",1755620950,"19/08/2025, 18:29:10");</script>
-<script>addRow("mindreader_fold_2","mindreader_fold_2",1,160,"160 B",1755621025,"19/08/2025, 18:30:25");</script>
-<script>addRow("mindreader_fold_3","mindreader_fold_3",1,160,"160 B",1755621058,"19/08/2025, 18:30:58");</script>
-<script>addRow("mindreader_fold_4","mindreader_fold_4",1,160,"160 B",1755621081,"19/08/2025, 18:31:21");</script>
-<script>addRow("yelp2018","yelp2018",1,256,"256 B",1755614346,"19/08/2025, 16:39:06");</script>
